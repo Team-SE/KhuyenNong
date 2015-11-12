@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Trung tâm khuyến nông 46</title>
+    <link href="~/Assets/User/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!--slider-->
+    <link href="~/Assets/User/css/slider.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="~/Assets/User/js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="~/Assets/User/js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#slider').nivoSlider();
+        });
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-top">
+            <div class="wrap">
+                <div class="logo">
+                    <a href="~/Assets/User/index.html"><img src="~/Assets/User/images/logo.png" alt=""></a>
+                </div>
+                @*<div class="search_box">
+                    <form>
+                        <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}"><input type="submit" value="">
+                    </form>
+                </div>*@
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="wrap">
+                <div id='cssmenu'>
+                    <ul>
+                        <li class='active'><a href='~/Assets/User/index.html'><span>Trang chủ</span></a></li>
+                        <li><a href='about.html'><span>Tin tức</span></a></li>
+                        <li class='has-sub'>
+                            <a href='services.html'><span>Kiến thức</span></a>
+                            <ul>
+                                <li class='has-sub'><a href='~/Assets/User/services.html'><span>Service 1</span></a></li>
+                                <li class='has-sub'><a href='~/Assets/User/services.html'><span>Service 2</span></a></li>
+                            </ul>
+                        </li>
+                        <li><a href='~/Assets/User/gallery.html'><span>Giá cả</span></a></li>
+                        <li><a href='~/Assets/User/blog.html'><span>Tra cứu</span></a></li>
+                        <li class='last'><a href='~/Assets/User/contact.html'><span>Liên hệ</span></a></li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    @RenderBody();
+    <div class="footer-bottom">
+        <div class="wrap">
+            <div class="copy">
+                <p> © 2013 All rights Reserved | Create by Team 46</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
