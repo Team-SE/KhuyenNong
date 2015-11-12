@@ -11,7 +11,7 @@ namespace KhuyenNong.Controllers
         //
         // GET: /HomePage/
 
-        public ActionResult Index()
+        public ActionResult Index() //hihi
         {
             return View();
         }
