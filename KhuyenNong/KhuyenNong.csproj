@@ -130,6 +130,7 @@
     <Content Include="Assets\admin\images\140x140.gif" />
     <Content Include="Assets\admin\images\170x170.gif" />
     <Content Include="Assets\admin\images\apple.ico" />
+    <Content Include="Assets\admin\images\bk.png" />
     <Content Include="Assets\admin\images\blog\442256_20337880.jpg" />
     <Content Include="Assets\admin\images\blog\472381_10949156.jpg" />
     <Content Include="Assets\admin\images\blog\503993_62595320.jpg" />
@@ -165,6 +166,7 @@
     <Content Include="Assets\admin\images\gallery\789080_16753532.jpg" />
     <Content Include="Assets\admin\images\gallery\888272_30368604.jpg" />
     <Content Include="Assets\admin\images\gallery\images.txt" />
+    <Content Include="Assets\admin\images\khuyennong.png" />
     <Content Include="Assets\admin\images\less.png" />
     <Content Include="Assets\admin\images\loading-icons\images.txt" />
     <Content Include="Assets\admin\images\loading-icons\loading1.gif" />
