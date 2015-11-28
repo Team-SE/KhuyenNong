@@ -1,0 +1,102 @@
+﻿<table class="contentpaneopen">
+
+
+
+<tr>
+<td valign="top">
+<p><b><img style="float: left; margin: 10px;" height="100" width="130" src="http://t1.gstatic.com/images?q=tbn:ANd9GcTt7jiWPAuL8jK6Ik_Tpgke5hiDbkBb9eW7WeYlRNtEJJayeICc" />&nbsp;I. CHỌN GIỐNG LÚA</b></p>
+<p>Nên sử dụng các giống có thời gian sinh trưởng từ 90-100 ngày, năng suất cao, chống chịu với một số sâu bệnh chính và có phẩm chất gạo tốt đủ tiêu chuẩn xuất khẩu như OM1490, OMCS2000, IR64, MTL250, VD95-20, AS996, OM3536, Lúa thơm, v.v.</p>
+
+<p><b>II. CHUẨN BỊ ĐẤT</b></p>
+<p><b>Đối với vụ Đông xuân:</b></p>
+<ul>
+<li>Dọn sạch cỏ.</li>
+<li>Trục đánh bùn và san bằng mặt ruộng bằng máy cày bánh lồng có trang kèm theo.</li>
+</ul>
+<p><b>Đối với vụ Hè thu:</b></p>
+<ul>
+<li>Cày đất bằng máy với độ sâu từ 15-20 cm.</li>
+<li>Phơi ải trong thời gian 1 tháng.</li>
+<li>Bừa, trục và san bằng mặt ruộng bằng máy kéo bánh lồng có công cụ trang phẳng mặt ruộng kèm theo. </li>
+</ul>
+<p><b>Chú ý</b>: Ruộng phải bằng phẳng, có hệ thống thoát nước tốt và không đọng nước.</p>
+<p><b>III. BIỆN PHÁP GIEO SẠ</b></p>
+<p><b>Chuẩn bị hạt giống</b></p>
+<ul>
+<li>Làm sạch hạt lúa trước khi ngâm ủ bằng cách ngâm hạt trong nước muối 15% để loại bỏ hạt lép lửng và lẫn tạp. </li>
+<li>Sau đó, cho vào bao ngâm trong nước sạch 24 - 30 giờ. Xử lý hạt giống trước khi đem ủ bằng phân bón lá<b> HVP GA<sub>3</sub></b></li>
+<li>Rửa bằng nước sạch, để ráo nước, ủ trong 24 – 36 giờ  tùy giống đảm bảo hạt vừa nhú mầm.</li>
+<li>Xử lý<b> </b>với<b> </b>thuốc<b> </b>Cruiser plus (tốt nhất là lúc ngót lần cuối khoảng 12 giờ trước khi gieo) trước khi gieo<b>.</b><b>&nbsp;</b></li>
+</ul>
+<p><b>Biện pháp gieo sạ</b></p>
+<ul>
+<li>Gieo hàng bằng công cụ gieo hàng kéo tay hoặc liên hợp với máy kéo.</li>
+<li>Lượng hạt giống gieo: 100-120 kg/ha.</li>
+<li>Khoảng cách gieo: hàng cách hàng 20 cm.</li>
+</ul>
+<p><b> </b></p>
+<p><b>IV. BÓN PHÂN</b></p>
+<p>Ở giai đoạn để nhánh (22-25 NSS) và làm đòng (42-45 NSS), sử dụng bảng so màu lá để điều chỉnh lượng phân đạm cần bón.</p>
+<p>Tùy theo loại đất và mùa vụ mà loại phân, liều lượng và thời gian bón cho lúa (tính cho 1000 m<sup>2</sup>) như sau:</p>
+<p>*Đất phù sa:</p>
+<ul>
+<li><b>Vụ hè thu</b>: Nên bón lót trước      khi gieo 20-25 kg phân hữu cơ sinh học <b>HVP 401.B</b> (dạng hạt) + 2 kg <b>HVP ORGANIC</b> (hoặc có thể bón ở giai đoạn 7-10 ngày sau gieo); ở      giai đoạn 7-10 ngày sau gieo (NSG) bón: 15 kg NPK (20-20-15); giai đoạn      22-25 NSG bón: 4-5 kg DAP + 7-8 kg Urea; giai đoạn 42-45 NSG bón: 5-6 kg      Urea + 3 kg KCl. </li>
+<li><b>Vụ đông xuân</b>: Nên bón lót trước      khi gieo 30-35 kg phân hữu cơ sinh học <b>HVP 401.B</b> (dạng hạt) + 2 – 3 kg <b>HVP ORGANIC</b> (hoặc có thể bón ở giai đoạn 7-10 ngày sau gieo); ở      giai đoạn 7-10 ngày sau gieo (NSG) bón: 10 kg NPK (20-20-15) + 4-5 kg      Urea; giai đoạn 22-25 NSG bón: 4-5 kg DAP + 7-8 kg Urea; giai đoạn 42-45      NSG bón: 7-8 kg Urea + 3 kg KCl. Phun KNO<sub>3</sub> trước      và sau trỗ 7 ngày, 150 g/bình 8 lít, 4 bình.</li>
+</ul>
+<p><b> </b></p>
+<p><b>* </b>Đất phèn nhẹ và trung bình</p>
+<ul>
+<li><b>Vụ hè thu: </b>Nên bón lót trước      khi gieo 30-35 kg phân hữu cơ sinh học <b>HVP 401.B</b> (dạng hạt) + 2 kg <b>HVP ORGANIC</b> (hoặc có thể bón ở giai đoạn 7-10 ngày sau gieo); ở      giai đoạn 7-10 ngày sau gieo (NSG) bón: 15 kg NPK (20-20-15); giai đoạn      22-25 NSG bón: 6-7 kg DAP + 6-7 kg Urea; giai đoạn 42-45 NSG bón: 4-5 kg      Urea + 3 kg KCl. </li>
+<li><b>Vụ đông xuân</b>: Nên bón lót trước      khi gieo 35 – 40 kg phân hữu cơ sinh học <b>HVP 401.B</b> (dạng hạt) + 2 – 3 kg <b>HVP ORGANIC</b> (hoặc có thể bón ở giai đoạn 7-10 ngày sau gieo); ở      giai đoạn 7-10 ngày sau gieo (NSG) bón: 10 kg NPK (20-20-15); giai đoạn      22-25 NSG bón: 5-6 kg DAP + 6-7 kg Urea; giai đoạn 42-45 NSG bón: 5-6 kg      Urea + 3 kg KCl. </li>
+</ul>
+<p> </p>
+<p><b>*Sử dụng phân bón lá:</b> Để cung cấp kịp thời dinh dưỡng cho sự phát triển của cây lúa theo từng giai đoạn có thể sử dụng phân bón lá theo quy trình sau:</p>
+<p>+ Giai đoạn 7-10 ngày sau gieo phun <b>HVP 401.N chuyên lúa</b> để kích thích bộ rễ lúa phát triển mạnh.</p>
+<p>+ Giai đoạn sau sạ 15 – 20 ngày phun <b>HVP GIÀU LÂN VÀ MAGIÊ - THẦN DƯỢC GIẢI ĐỘC PHÈN</b> để kích thích lúa đẻ nhánh (ở những vùng đất phèn, lúa bị ngộ độc hữu cơ có thể phun sớm hơn (7 ngày sau gieo) và phun định kỳ cách nhau 7 ngày/lần).</p>
+<p>+ Giai đoạn 40 – 45 ngày sau sạ phun <b>HVP-SIÊU TO HẠT + HVP GIÀU LÂN VÀ MAGIÊ - THẦN DƯỢC GIẢI ĐỘC PHÈN</b> để giúp lúa làm đòng tốt, đòng to mập.</p>
+<p>+ Giai đoạn trước khi trổ 7 – 10 ngày (55 – 60 NSG) phun <b>HVP AUXIN ORGANIC</b> để giúp lúa trổ nhanh và tập trung.</p>
+<p>+ Khi lúa bắt đầu trổ sẹt phun <b>HVP- SIÊU TO HẠT </b>giúp tăng tỉ lệ hạt chắc/bông, giảm tỉ lệ bạc bụng.</p>
+<p>+ Khi lúa ngậm sữa phun <b>HVP 1001.S (0-25-25)</b> 2 lần mỗi lần các nhau 7-10 ngày. Giúp hạt lúa sáng đẹp, tăng năng suất và chất lượng hạt gạo thành phẩm.</p>
+<p><b>V.</b> <b>QUẢN LÝ NƯỚC</b></p>
+<p>- Giai đoạn cây con (0-7 NSG): rút cạn nước trước khi sạ và giữ khô mặt ruộng trong vòng 3 ngày sau khi gieo, ngày thứ 4 cho nước láng mặt ruộng 1 ngày sau đó rút cạn để đảm bảo đủ ẩm bề mặt ruộng.</p>
+<p>- Giai đoạn sinh trưởng sinh dưỡng (7-42 NSG): Giữ nước trên mặt ruộng ở mức 5-7 cm. Trong giai đoạn này vào lúc khoảng 30-35 NSG cần tháo cạn nước cho đất nứt nẻ chân chim, lá lúa hơi vàng, sau đó cho nước mới vào.</p>
+<p>- Giai đoạn sinh trưởng sinh thực (42-65 NSG): Giữ nước trong ruộng ở mức 3-5 cm.</p>
+<p>- Giai đoạn chín (65-95 NSG): Giữ nước trong ruộng ở mức 2-3 cm cho đến giai đoạn chín vàng (7-10 ngày trước khi thu hoạch) tháo cạn nước trong ruộng.</p>
+<p><b> </b></p>
+<p><b>VI. PHÒNG TRỪ CỎ DẠI</b></p>
+<p>Có thể sử dụng một số loại thuốc phòng trừ cỏ dại như sau: Sofit 300EC, Meco 60EC, Vigor 33EC, Sirius 10WP, Nominee 10SC, Tiller-s, Ronstar 25EC, OK 720DD, Facet 25SC, v.v.</p>
+<p> </p>
+<p><b>VII. PHÒNG TRỪ SÂU HẠI</b></p>
+<p>Áp dụng biện pháp phòng trừ tổng hợp (IPM). Khi thật cần thiết, có thể sử dụng một trong các loại thuốc sau đây để phòng trừ:</p>
+<ul>
+<li>Rầy nâu: Applaud 10BHN, Actara 25WG, Bassa 50ND, Mipcin 25BHN và Trebon 10ND.</li>
+<li>Bù lạch: Actara 25WG, Bassa 50ND, Fastac 5ND, Regent 300WDG và Trebon 10ND.</li>
+<li>Sâu phao: Fastac 5ND, Padan 95SP và Regent hai lúa xanh 300WDG.</li>
+<li>Sâu cuốn lá: DDVP 50ND, Fastac 5ND, Padan 95SP và Trebon 10ND.</li>
+<li>Sâu dục thân: Basudin 10H, Padan 95SP, Regent hai lúa xanh 300WDG và Regent 10H.</li>
+<li>Bọ xít các loại: Bassa 50ND và Padan 10H.</li>
+</ul>
+<p><b>VIII. PHÒNG TRỪ BỆNH HẠI</b></p>
+<p><b>Bệnh đạo ôn:</b> Thăm đồng thường xuyên 5-7 ngày lần để phát hiện bệnh kịp thời. Khi thấy có một vài vết bệnh xuất hiện, sử dụng thuốc hóa học như: Beam 20WP; Trizole 20WP; Fuji-one 40EC; Bump 650WP; FILIA-525EC; Kabim 30EC... để phun.</p>
+<p><strong>Bệnh khô vằn:  Sử dụng các loại thuốc như Anvil, Tilt super, Amistar Top…</strong></p>
+<p><b>Bệnh Bạc lá</b>: Bệnh Bạc lá do vi khuẩn gây ra, bệnh thường phát triển và gây hại nặng vụ Hè Thu trong giai đoạn 40 NSG trở đi. Bệnh lây lan qua con đường hạt giống. Để phòng trị bệnh chủ yếu sử dụng giống kháng kết hợp với xử lý hạt giống như đã khuyến cáo.</p>
+<p><b>IX. PHÒNG TRỪ CHUỘT</b></p>
+<p>- Phối hợp nhiều biện pháp cùng 1 lúc: Thời vụ tập trung, vệ sinh đồng ruộng, đặt bẫy, đào hang, bỏ khí đá vào hang, bơm nước vào hang, dùng chó săn bắt.</p>
+<p>- Đánh bả chuột: dùng lúa mộng hay thức ăn gia súc làm mồi trộn với thuốc Fokeba 5%&nbsp; hay&nbsp; Zinphos 20 % với tỉ lệ 1/50, nên đặt nhiều đợt, cách nhau 4-5 đêm, giá để mồi có thể&nbsp; là ống tre, vỏ dừa. Sử dụng thuốc viên Klerat 0,05 % để nhét vào miệng hang.</p>
+<p> </p>
+<p>Bẫy cây trồng: trong khu vực khoảng 1 km2 (100 ha) bố trí 5 ruộng gieo trồng sớm hơn 1 tháng, cách nhau 500 m, mỗi ruộng có hàng rào ny lông cao 80-100cm và 8 lồng hom (2/bờ). Sử dụng giống lúa thơm để dẫn dụ chuột.</p>
+<p>- Dùng thuốc xông hơi như DDVP, Phosphine hay khí đá bỏ vào hang và bịt miệng hang lại.</p>
+<p>- Gặt lúa dồn từ xung quanh vào giữa, cuối cùng bao lưới để bắt.</p>
+<p><b>X. THU HOẠCH</b></p>
+<p>- Thời gian thu hoạch: Thu hoạch vào lúc sau trỗ 28-32 ngày hoặc khi thấy 85-90% số hạt trên bông đã chín vàng. Nếu cắt sớm hay trễ đều làm tăng tỷ lệ hao hụt.</p>
+<p>- Nên sử dụng máy gặt dải hàng để cắt lúa.</p>
+<p>- Sau khi cắt tiến hành suốt ngay, không nên phơi mớ trên ruộng.</p>
+<p>- Sử dụng máy đập lúa trục dọc (tuốt lúa, máy nhai) để suốt lúa.</p>
+<p><b>XI. CHẾ BIẾN, BẢO QUẢN (SƠ CHẾ)</b></p>
+<p>- Trong vụ đông xuân, phơi thóc trên sân gạch, xi măng hoặc sân đất. Nên sử dụng lưới nilon lót dưới trong quá trình phơi, phơi từ 2-3 ngày là được.</p>
+<p>- Trong vụ hè thu, sử dụng máy sấy trụ đứng STĐ-1000, máy sấy tĩnh vỉ ngang hoặc lều sấy liên hợp với quạt thông gió SLQ-2000 để làm khô lúa.</p>
+<p>- Sau khi làm khô, rê sạch và sử dụng bao để đựng. Bảo quản lúa ở những nơi khô ráo và thoáng. Nếu bảo quản trong thời gian dưới 3 tháng, độ ẩm thóc đạt 13-14%. Nếu thời gian bảo quản trên 3 tháng, độ ẩm phải dưới 13%.</p>
+<p style="text-align: center;"><strong><span style="color: #ff0000;">HVP_BẠN ĐỒNG HÀNH CỦA BA CON NÔNG DÂN</span></strong></p></td>
+</tr>
+
+</table>

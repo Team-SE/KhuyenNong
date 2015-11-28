@@ -112,17 +112,24 @@
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
     <Compile Include="Areas\Admin\Controllers\LoginController.cs" />
     <Compile Include="Controllers\HomePageController.cs" />
+    <Compile Include="Controllers\searchController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\SearchModael.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
     <Content Include="Assets\admin\images\140x140.gif" />
     <Content Include="Assets\admin\images\170x170.gif" />
+    <Content Include="Assets\admin\images\apple.ico" />
     <Content Include="Assets\admin\images\blog\442256_20337880.jpg" />
     <Content Include="Assets\admin\images\blog\472381_10949156.jpg" />
     <Content Include="Assets\admin\images\blog\503993_62595320.jpg" />
@@ -305,7 +312,10 @@
     <Content Include="Assets\admin\stylesheets\isotope.css" />
     <Content Include="Assets\admin\stylesheets\premium.css" />
     <Content Include="Assets\admin\stylesheets\theme.css" />
+    <Content Include="Assets\User\css\bootstrap.css" />
+    <Content Include="Assets\User\css\bootstrap.min.css" />
     <Content Include="Assets\User\css\jquery.fancybox.css" />
+    <Content Include="Assets\User\css\logo-nav.css" />
     <Content Include="Assets\User\css\slider.css" />
     <Content Include="Assets\User\css\style.css" />
     <Content Include="Assets\User\images\banner1.jpg" />
@@ -362,6 +372,8 @@
     <Content Include="Assets\User\js\jquery.fancybox.js" />
     <Content Include="Assets\User\js\jquery.mousewheel-3.0.6.pack.js" />
     <Content Include="Assets\User\js\jquery.nivo.slider.js" />
+    <Content Include="Database\Knowledge\1.txt" />
+    <Content Include="Database\Knowledge\2.txt" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -373,9 +385,7 @@
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Models\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -455,6 +465,9 @@
     <Content Include="Assets\admin\lib\fullcalendar-1.6.4\demos\json-events.php" />
     <Content Include="Assets\admin\lib\jQuery-Knob\knob.jquery.json" />
     <Content Include="Assets\admin\lib\jQuery-Knob\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\search\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
