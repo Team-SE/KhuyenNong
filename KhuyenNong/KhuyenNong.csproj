@@ -321,8 +321,15 @@
     <Content Include="Assets\HomePage\images\ad468x60.gif" />
     <Content Include="Assets\HomePage\images\background.gif" />
     <Content Include="Assets\HomePage\images\bullet.gif" />
+    <Content Include="Assets\HomePage\images\home8.jpg" />
     <Content Include="Assets\HomePage\images\kn1.jpg" />
+    <Content Include="Assets\HomePage\images\kn2.jpg" />
+    <Content Include="Assets\HomePage\images\kn3.jpg" />
+    <Content Include="Assets\HomePage\images\kn4.jpg" />
     <Content Include="Assets\HomePage\images\kn5.jpg" />
+    <Content Include="Assets\HomePage\images\kn6.jpg" />
+    <Content Include="Assets\HomePage\images\kn7.jpg" />
+    <Content Include="Assets\HomePage\images\kn9.jpg" />
     <Content Include="Assets\HomePage\images\search.gif" />
     <Content Include="Assets\HomePage\images\_thumb1.jpg" />
     <Content Include="Assets\HomePage\images\_thumb2.jpg" />
