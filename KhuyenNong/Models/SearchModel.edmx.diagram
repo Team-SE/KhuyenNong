@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="916242d774d240c3b1989046d50063ea" Name="Diagram1">
+        <EntityTypeShape EntityType="Database1Model.BUSSINESS_BUY" Width="1.5" PointX="0.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.COST" Width="1.5" PointX="2.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.KNOWLEDGE" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.PRODUCE_ACT" Width="1.5" PointX="3.875" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.User_Table" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
