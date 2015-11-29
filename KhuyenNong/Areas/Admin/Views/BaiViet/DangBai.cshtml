@@ -1,0 +1,26 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="content">
+    Mục đăng bài:
+    <select>
+        <option value="tintuc">Tin tức</option>
+        <option value="kienthuc">Kiến thức</option>
+        <option value="giaca">Giá cả</option>
+    </select><br />
+    <br />
+    <form action="title.asp">
+        Tiêu đề bài viết: <input type="text" name="title">      
+    </form><br />
+    <div>
+
+        <script src="~/ckeditor/ckeditor.js"></script>
+        <textarea name="NoiDung" id="NoiDung"></textarea>
+        <script>
+            CKEDITOR.replace('NoiDung');
+        </script>
+    </div><br />
+    <button type="button" onclick="alert('Đăng bài thành công')">Đăng bài</button>
+</div>
+    
