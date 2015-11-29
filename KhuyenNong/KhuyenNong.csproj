@@ -136,7 +136,7 @@
     <Compile Include="Models\PRODUCE_ACT.cs">
       <DependentUpon>SearchModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\resultSearch.cs" />
+    <Compile Include="Models\rowSearch.cs" />
     <Compile Include="Models\SearchModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -152,7 +152,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SearchModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Models\SearchModel1.cs" />
+    <Compile Include="Models\searchResult.cs" />
     <Compile Include="Models\User_Table.cs">
       <DependentUpon>SearchModel.tt</DependentUpon>
     </Compile>
@@ -415,6 +415,7 @@
     <Content Include="Assets\User\js\jquery.nivo.slider.js" />
     <Content Include="Database\Knowledge\1.txt" />
     <Content Include="Database\Knowledge\2.txt" />
+    <Content Include="Database\Knowledge\3.txt" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -524,6 +525,7 @@
     </Content>
     <Content Include="Models\SearchModel.edmx.diagram">
       <DependentUpon>SearchModel.edmx</DependentUpon>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Models\SearchModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -533,6 +535,9 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\search\searchResult.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

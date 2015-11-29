@@ -60,10 +60,14 @@
                         
                         @*<div class="clear"></div>*@
                 </ul>
+
                 <div class="search_box">
-                    <form method="get">
-                        <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}"><input type="submit" value="">
-                    </form>
+                    @using (Html.BeginForm("searchResult", "search"))
+                    {
+                        <input type="text" name="keys" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+                        <input type="submit" value="">                    
+                    }
+                  
                 </div>
             </div>
             <!-- /.navbar-collapse -->
