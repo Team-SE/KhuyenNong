@@ -111,6 +111,7 @@
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\BaiVietController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Controllers\DetailController.cs" />
     <Compile Include="Controllers\HomePageController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\searchController.cs" />
@@ -331,14 +332,6 @@
     <Content Include="Assets\HomePage\images\kn7.jpg" />
     <Content Include="Assets\HomePage\images\kn9.jpg" />
     <Content Include="Assets\HomePage\images\search.gif" />
-    <Content Include="Assets\HomePage\images\_thumb1.jpg" />
-    <Content Include="Assets\HomePage\images\_thumb2.jpg" />
-    <Content Include="Assets\HomePage\images\_thumb3.jpg" />
-    <Content Include="Assets\HomePage\images\_thumb4.jpg" />
-    <Content Include="Assets\HomePage\images\_thumb5.jpg" />
-    <Content Include="Assets\HomePage\images\_thumb6.jpg" />
-    <Content Include="Assets\HomePage\images\_thumb7.jpg" />
-    <Content Include="Assets\HomePage\images\_thumb8.jpg" />
     <Content Include="Assets\HomePage\images\_video.jpg" />
     <Content Include="Assets\HomePage\style.css" />
     <Content Include="Assets\Login\css\style.css" />
@@ -807,6 +800,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Login\scss\style.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Detail\Detail.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
