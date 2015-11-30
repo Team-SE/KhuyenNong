@@ -21,6 +21,7 @@ namespace KhuyenNong.Controllers
         {
             
            // String l = "~/database/knowledge/1.txt";
+            if (keys == null) return null;
             using (Database1Entities db = new Database1Entities())
             {
                // var tble = db.KNOWLEDGES.Where(a => System.IO.File.ReadAllText(a.Contains).Contains(keys));

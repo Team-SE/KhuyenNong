@@ -1,4 +1,5 @@
 ﻿<!DOCTYPE html>
+
 <html>
 <head>
     <title>Trung tâm khuyến nông 46</title>
@@ -44,7 +45,7 @@
                 <ul class="nav navbar-nav">
                    <li><a href='~/Assets/User/index.html'><span>       </t></span></a></li>
                    <li class='active'><a href="http://localhost:6317/HomePage/Index"><span></t>Trang chủ</span></a></li>
-                       <li><a href='about.html'><span>Tin tức</span></a></li>
+                       <li><a href=''><span>Tin tức</span></a></li>
                        <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kiến thức</a>
                             <ul class="dropdown-menu">
@@ -54,9 +55,9 @@
                                 @*<%--<li><a href="#">Shortcodes</a></li>--%>*@
                             </ul>
                         </li>
-                        <li><a href='~/Assets/User/gallery.html'><span>Giá cả</span></a></li>
-                        <li><a href='~/Assets/User/blog.html'><span>Tra cứu</span></a></li>
-                        <li><a href='~/Assets/User/contact.html'><span>Liên hệ</span></a></li>
+                        <li><a href='~/Assets/User/gallery.html'><span>Giá cả</span></a></li>                     
+                        <li><a href='/Login/Log_in'><span>Đăng nhập</span></a></li>
+                        <li><a href='/Login/Register'><span>Đăng ký</span></a></li>
                         
                         @*<div class="clear"></div>*@
                 </ul>
@@ -75,14 +76,35 @@
         <!-- /.container -->
     </nav>
 
-    @RenderBody();
-    <div class="footer-bottom">
-        <div class="wrap">
-            <div class="copy">
-                <p> © 2013 All rights Reserved | Create by Team 46</p>
+    @RenderBody()
+    <link rel="stylesheet" type="text/css" href="~/Assets/HomePage/style.css" />
+    <!-- BEGIN wrapper -->
+    <div id="wrapper">
+        <!-- BEGIN sidebar -->
+        <div id="sidebar">
+
+            <div class="wrapper">
+                <!-- begin popular posts -->
+                <h2>Tin mới nhất</h2>
+                <ul>
+                    <li><a href="#">Hội thảo sơ kết dự án khuyến nông trung ương lĩnh vực chăn nuôi</a></li>
+                    <li><a href="#">Công nghệ mới trong chăn nuôi cá biển</a></li>
+                    <li><a href="#">Thâm canh cà phê hợp lý để nâng cao hiệu quả và phát triển bền vững</a></li>
+                    <li><a href="#">Lâm Đồng: Sơ kết 3 năm thực hiện tái canh cà phê</a></li>
+                    <li><a href="#">Tuần lễ Nông dân ASEAN năm 2015 tại Phi-lip-pin</a></li>
+                </ul>
+                <!-- end popular posts -->
+
             </div>
+            <!-- END sidebar -->
         </div>
-    </div>
+        <!-- END wrapper -->
+            <!-- BEGIN footer -->
+            <div id="footer">
+                <p>Copyright &copy; 2015 - <a href="#">Trung tâm khuyến nông</a> &middot; All Rights Reserved</p>
+
+            </div>
+            <!-- END footer -->
 </body>
 </html>
 
