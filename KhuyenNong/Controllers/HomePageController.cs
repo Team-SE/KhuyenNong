@@ -16,5 +16,17 @@ namespace KhuyenNong.Controllers
             return View();
         }
 
+        protected override void HandleUnknownAction(string actionName)
+        {
+            try
+            {
+                this.View(actionName).ExecuteResult(this.ControllerContext);
+            }
+            catch
+            {
+                Response.Redirect("Page Not Found Hahaha hahahha");
+            }
+        }
+
     }
 }

@@ -21,7 +21,7 @@ namespace KhuyenNong.Controllers
         {
             
            // String l = "~/database/knowledge/1.txt";
-            if (keys == null) return null;
+            if (keys == null || keys.Trim() == "") return RedirectToAction("Index", "HomePage");
             using (Database1Entities db = new Database1Entities())
             {
                // var tble = db.KNOWLEDGES.Where(a => System.IO.File.ReadAllText(a.Contains).Contains(keys));
@@ -35,6 +35,11 @@ namespace KhuyenNong.Controllers
                 return View(new searchResult(listRes, keys));
             }
         }
+        public ActionResult searchPage(string keys)
+        {
+            if (keys == null || keys.Trim() == "") return RedirectToAction("Index", "HomePage");
 
+            return View();
+        }
     }
 }
