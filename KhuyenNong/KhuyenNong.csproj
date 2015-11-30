@@ -811,7 +811,7 @@
     <Content Include="Views\search\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-<!-- <<<<<<< HEAD -->
+    <!-- <<<<<<< HEAD -->
     <EntityDeploy Include="Models\SearchModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>SearchModel.Designer.cs</LastGenOutput>
@@ -838,7 +838,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\search\searchResult.cshtml" />
-<!-- ======= -->
+    <!-- ======= -->
     <Content Include="Areas\Admin\Views\BaiViet\DangBai.cshtml" />
     <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_LayoutAdmin.cshtml" />
@@ -871,7 +871,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Detail\Detail.cshtml" />
-<!-- >>>>>>> a5a4a25db7425ab094230c158afba4c1664167bf -->
+    <!-- >>>>>>> a5a4a25db7425ab094230c158afba4c1664167bf -->
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Detail\Detail_2.cshtml" />
@@ -884,6 +884,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Detail\Detail_5.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Detail\Detail_6.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Detail\Detail_7.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Detail\Detail_8.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
