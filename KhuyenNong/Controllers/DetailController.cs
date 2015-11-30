@@ -26,6 +26,5 @@ namespace KhuyenNong.Controllers
                 Response.Redirect("Page Not Found Hahaha hahahha");
             }
         }
-
     }
 }
