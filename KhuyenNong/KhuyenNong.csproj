@@ -119,6 +119,8 @@
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\BaiVietController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Admin\Models\BaiViet.cs" />
+    <Compile Include="Areas\Admin\Models\List_BaiViet.cs" />
     <Compile Include="Controllers\DetailController.cs" />
     <Compile Include="Controllers\HomePageController.cs" />
     <Compile Include="Controllers\KienthucController.cs" />
@@ -759,9 +761,7 @@
     </Content>
     <Content Include="Views\Web.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
