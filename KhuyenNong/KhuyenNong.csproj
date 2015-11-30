@@ -121,6 +121,7 @@
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
     <Compile Include="Controllers\DetailController.cs" />
     <Compile Include="Controllers\HomePageController.cs" />
+    <Compile Include="Controllers\KienthucController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\searchController.cs" />
     <Compile Include="Global.asax.cs">
@@ -131,6 +132,24 @@
     </Compile>
     <Compile Include="Models\COST.cs">
       <DependentUpon>SearchModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HomePage\HomePage.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HomePage.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HomePage\HomePage.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HomePage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HomePage\HomePage.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HomePage.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HomePage\ShowHome.cs">
+      <DependentUpon>HomePage.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\KNOWLEDGE.cs">
       <DependentUpon>SearchModel.tt</DependentUpon>
@@ -155,6 +174,7 @@
       <DependentUpon>SearchModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\searchResult.cs" />
+    <Compile Include="Models\HomePage\thumbHome.cs" />
     <Compile Include="Models\User_Table.cs">
       <DependentUpon>SearchModel.tt</DependentUpon>
     </Compile>
@@ -893,6 +913,30 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Detail\Detail_8.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="Models\HomePage\HomePage.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>HomePage.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Models\HomePage\HomePage.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>HomePage.edmx</DependentUpon>
+      <LastGenOutput>HomePage.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\HomePage\HomePage.edmx.diagram">
+      <DependentUpon>HomePage.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\HomePage\HomePage.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>HomePage.edmx</DependentUpon>
+      <LastGenOutput>HomePage.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Detail\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

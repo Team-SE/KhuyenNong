@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using KhuyenNong.Models.HomePage;
 
 namespace KhuyenNong.Controllers
 {
@@ -13,7 +14,23 @@ namespace KhuyenNong.Controllers
 
         public ActionResult Index() //hihi
         {
-            return View();
+            using (var db = new Database1Entities1())
+            {
+                var data = (from a in db.ShowHomes
+                            orderby a.dateWritten descending
+                            select new thumbHome
+                            {
+                                linkTitle = a.Title,
+                                summary = a.Summary,
+                                linkIma = a.linkImage,
+                                dateUpdate = a.dateWritten.ToString(),
+                                linkPage = a.linkPage,
+                                type = a.Type
+                            }).Take(10).ToList();
+                var t = data.First().linkIma;
+                return View(data);
+            }
+            
         }
 
         protected override void HandleUnknownAction(string actionName)
