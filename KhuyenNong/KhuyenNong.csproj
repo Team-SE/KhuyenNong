@@ -39,10 +39,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -118,7 +126,38 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\SearchModael.cs" />
+    <Compile Include="Models\BUSSINESS_BUY.cs">
+      <DependentUpon>SearchModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\COST.cs">
+      <DependentUpon>SearchModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\KNOWLEDGE.cs">
+      <DependentUpon>SearchModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PRODUCE_ACT.cs">
+      <DependentUpon>SearchModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\rowSearch.cs" />
+    <Compile Include="Models\SearchModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SearchModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SearchModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SearchModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SearchModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SearchModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\searchResult.cs" />
+    <Compile Include="Models\User_Table.cs">
+      <DependentUpon>SearchModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -689,6 +728,7 @@
     <Content Include="ckeditor\styles.js" />
     <Content Include="Database\Knowledge\1.txt" />
     <Content Include="Database\Knowledge\2.txt" />
+    <Content Include="Database\Knowledge\3.txt" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -771,6 +811,34 @@
     <Content Include="Views\search\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
+<!-- <<<<<<< HEAD -->
+    <EntityDeploy Include="Models\SearchModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SearchModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Models\SearchModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SearchModel.edmx</DependentUpon>
+      <LastGenOutput>SearchModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\SearchModel.edmx.diagram">
+      <DependentUpon>SearchModel.edmx</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Models\SearchModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SearchModel.edmx</DependentUpon>
+      <LastGenOutput>SearchModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\search\searchResult.cshtml" />
+<!-- ======= -->
     <Content Include="Areas\Admin\Views\BaiViet\DangBai.cshtml" />
     <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_LayoutAdmin.cshtml" />
@@ -803,6 +871,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Detail\Detail.cshtml" />
+<!-- >>>>>>> a5a4a25db7425ab094230c158afba4c1664167bf -->
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Detail\Detail_2.cshtml" />

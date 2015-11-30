@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Database1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="BUSSINESS_BUY">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Name_Buss" Type="nvarchar" MaxLength="20" />
+          <Property Name="Name_seed" Type="nvarchar" MaxLength="20" />
+          <Property Name="Price_buy" Type="nvarchar" MaxLength="10" />
+          <Property Name="UpdateDay" Type="date" />
+          <Property Name="Author" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="COSTS">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="TenNongSan" Type="nvarchar" MaxLength="20" />
+          <Property Name="Giathitruong" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="UpdateDay" Type="date" />
+          <Property Name="Author" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="KNOWLEDGES">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Contains" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Author" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="PRODUCE_ACT">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Contains" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Author" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="User_Table">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="20" />
+          <Property Name="username" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="password" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="level" Type="int" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6035: The relationship 'FK__BUSSINESS__Autho__1920BF5C' has columns that are not part of the key of the table on the primary side of the relationship. The relationship was excluded.
+        <Association Name="FK__BUSSINESS__Autho__1920BF5C" />-->
+        <!--Errors Found During Generation:
+warning 6035: The relationship 'FK__COSTS__Author__1BFD2C07' has columns that are not part of the key of the table on the primary side of the relationship. The relationship was excluded.
+        <Association Name="FK__COSTS__Author__1BFD2C07" />-->
+        <!--Errors Found During Generation:
+warning 6035: The relationship 'FK__KNOWLEDGE__Autho__164452B1' has columns that are not part of the key of the table on the primary side of the relationship. The relationship was excluded.
+        <Association Name="FK__KNOWLEDGE__Autho__164452B1" />-->
+        <!--Errors Found During Generation:
+warning 6035: The relationship 'FK__PRODUCE_A__Autho__1367E606' has columns that are not part of the key of the table on the primary side of the relationship. The relationship was excluded.
+        <Association Name="FK__PRODUCE_A__Autho__1367E606" />-->
+        <EntityContainer Name="Database1ModelStoreContainer">
+          <EntitySet Name="BUSSINESS_BUY" EntityType="Self.BUSSINESS_BUY" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="COSTS" EntityType="Self.COSTS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="KNOWLEDGES" EntityType="Self.KNOWLEDGES" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PRODUCE_ACT" EntityType="Self.PRODUCE_ACT" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="User_Table" EntityType="Self.User_Table" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Database1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="BUSSINESS_BUY">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Name_Buss" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Name_seed" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Price_buy" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="UpdateDay" Type="DateTime" Precision="0" />
+          <Property Name="Author" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="COST">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="TenNongSan" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Giathitruong" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="UpdateDay" Type="DateTime" Precision="0" />
+          <Property Name="Author" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="KNOWLEDGE">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Contains" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Author" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="PRODUCE_ACT">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Contains" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Author" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="User_Table">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="level" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="Database1Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="BUSSINESS_BUY" EntityType="Self.BUSSINESS_BUY" />
+          <EntitySet Name="COSTS" EntityType="Self.COST" />
+          <EntitySet Name="KNOWLEDGES" EntityType="Self.KNOWLEDGE" />
+          <EntitySet Name="PRODUCE_ACT" EntityType="Self.PRODUCE_ACT" />
+          <EntitySet Name="User_Table" EntityType="Self.User_Table" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Database1ModelStoreContainer" CdmEntityContainer="Database1Entities">
+          <EntitySetMapping Name="BUSSINESS_BUY">
+            <EntityTypeMapping TypeName="Database1Model.BUSSINESS_BUY">
+              <MappingFragment StoreEntitySet="BUSSINESS_BUY">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name_Buss" ColumnName="Name_Buss" />
+                <ScalarProperty Name="Name_seed" ColumnName="Name_seed" />
+                <ScalarProperty Name="Price_buy" ColumnName="Price_buy" />
+                <ScalarProperty Name="UpdateDay" ColumnName="UpdateDay" />
+                <ScalarProperty Name="Author" ColumnName="Author" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="COSTS">
+            <EntityTypeMapping TypeName="Database1Model.COST">
+              <MappingFragment StoreEntitySet="COSTS">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="TenNongSan" ColumnName="TenNongSan" />
+                <ScalarProperty Name="Giathitruong" ColumnName="Giathitruong" />
+                <ScalarProperty Name="UpdateDay" ColumnName="UpdateDay" />
+                <ScalarProperty Name="Author" ColumnName="Author" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="KNOWLEDGES">
+            <EntityTypeMapping TypeName="Database1Model.KNOWLEDGE">
+              <MappingFragment StoreEntitySet="KNOWLEDGES">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Contains" ColumnName="Contains" />
+                <ScalarProperty Name="Author" ColumnName="Author" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PRODUCE_ACT">
+            <EntityTypeMapping TypeName="Database1Model.PRODUCE_ACT">
+              <MappingFragment StoreEntitySet="PRODUCE_ACT">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Contains" ColumnName="Contains" />
+                <ScalarProperty Name="Author" ColumnName="Author" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="User_Table">
+            <EntityTypeMapping TypeName="Database1Model.User_Table">
+              <MappingFragment StoreEntitySet="User_Table">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="level" ColumnName="level" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
