@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KhuyenNong.Areas.Admin.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,8 +14,16 @@ namespace KhuyenNong.Areas.Admin.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            var model = List_BaiViet.Baiviet_List;
+            return View("Index", model);          
         }
 
-    }
+        [HttpPost]
+        public ViewResult Create(BaiViet a)
+        {
+            List_BaiViet.Add(a);
+            var model = List_BaiViet.Baiviet_List;
+            return View("Index", model);
+        }
+    }   
 }

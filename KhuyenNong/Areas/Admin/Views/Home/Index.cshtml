@@ -4,5 +4,51 @@
 }
 
 <div class="content">
-    <h1>Đây là trang chủ của Chuyên gia</h1>
+   @model IEnumerable<KhuyenNong.Areas.Admin.Models.BaiViet>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Quản lý bài đăng</h2>
+
+<p>   
+    <a href="/Admin/BaiViet/DangBai">Tạo bài mới</a>
+</p>
+<table class="table">
+    <tr>
+        <th>            
+            <p>Tiêu đề</p>
+        </th>
+        <th>
+            <p>Thời gian đăng</p>
+        </th>
+        <th>
+            <p>Người đăng</p>
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.content)
+            </td>
+            <td>
+                @Html.ActionLink("Xem", "Xem", new { id = item.title }) |
+                @Html.ActionLink("Chỉnh sửa", "Chỉnh sửa", new { id = item.title }) |
+                @Html.ActionLink("Xóa", "Xóa", new { id = item.title })
+            </td>
+        </tr>
+    }
+
+</table>
+
 </div>
