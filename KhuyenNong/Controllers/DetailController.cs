@@ -16,5 +16,24 @@ namespace KhuyenNong.Controllers
             return View();
         }
 
+        public ActionResult Detail_2()
+        {
+            return View();
+        }
+
+        public ActionResult Detail_3()
+        {
+            return View();
+        }
+
+        //public ActionResult Detail_4()
+        //{
+        //    return View();
+        //}
+
+        public ActionResult Detail_5()
+        {
+            return View();
+        }
     }
 }

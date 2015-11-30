@@ -804,6 +804,18 @@
   <ItemGroup>
     <Content Include="Views\Detail\Detail.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Detail\Detail_2.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Detail\Detail_3.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Detail\Detail_4.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Detail\Detail_5.cshtml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

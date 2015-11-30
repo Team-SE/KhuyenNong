@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Đăng nhập</title>
+
     <link rel="stylesheet" href="~/Assets/Login/css/style.css">
+
+
+
 
 </head>
 
@@ -19,11 +23,11 @@
 
                 <form action="javascript:void(0);" method="get">
 
-                    <input type="email" required value="Email" onblur="if(this.value=='')this.value='Email'" onfocus="if(this.value=='Email')this.value='' "> <!-- JS because of IE support; better: placeholder="Email" -->
+                    <input type="email" required value="Tên tài khoản"  onfocus="    if (this.value == 'Tên tài khoản') this.value = '' "> <!-- JS because of IE support; better: placeholder="Email" -->
 
-                    <input type="password" required value="Password" onblur="if(this.value=='')this.value='Password'" onfocus="if(this.value=='Password')this.value='' "> <!-- JS because of IE support; better: placeholder="Password" -->
+                    <input type="password" required value="Password"  onfocus="if(this.value=='Password')this.value='' "> <!-- JS because of IE support; better: placeholder="Password" -->
 
-                    <input type="submit" value="Login">
+                    <input type="submit" value="Đăng nhập">
 
                     <footer class="clearfix">
 
@@ -38,5 +42,6 @@
         </div> <!-- end login-form -->
 
     </div>
+
 </body>
 </html>

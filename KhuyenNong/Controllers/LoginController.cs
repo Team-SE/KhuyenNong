@@ -21,5 +21,18 @@ namespace KhuyenNong.Controllers
             return View();
         }
 
+        public ActionResult CheckLogin(FormCollection frm)
+        {
+            string Username = frm["Email"];
+            string Password = frm["Password"];
+            if ((Username=="admin")&&(Password=="123")) {
+                ViewBag.Thongbao = "Dang nhap thanh cong.";
+            }
+            else {
+                ViewBag.Thongbao = "Dang nhap that bai.";
+            }
+            return View("Detail");
+        }
+        
     }
 }
