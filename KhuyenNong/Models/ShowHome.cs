@@ -12,12 +12,14 @@ namespace KhuyenNong.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class COST
+    public partial class ShowHome
     {
         public int Id { get; set; }
-        public string TenNongSan { get; set; }
-        public string Giathitruong { get; set; }
-        public Nullable<System.DateTime> UpdateDay { get; set; }
-        public string Author { get; set; }
+        public string linkImage { get; set; }
+        public string Title { get; set; }
+        public string Summary { get; set; }
+        public Nullable<System.DateTime> dateWritten { get; set; }
+        public string linkPage { get; set; }
+        public Nullable<int> Type { get; set; }
     }
 }

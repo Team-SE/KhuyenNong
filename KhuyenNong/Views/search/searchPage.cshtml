@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "searchResult";
+    Layout = "~/Views/Shared/_LayoutView.cshtml";
+}
+@model KhuyenNong.Models.resSearch
+
+
+<h2>Search result for "@Model.keys"</h2>
+
+<body>
+    <!-- BEGIN wrapper -->
+    <div id="wrapper">
+
+        <!-- BEGIN content -->
+        <div id="content">
+            <!-- begin post -->
+            <div class="single">
+               @{
+
+                   foreach (var i in Model.list)
+                   {
+                         <h3><a href="@i.linkPage" style="color:blue">@i.linkTitle</a></h3>
+                         <h5>@i.summary</h5>
+                   }
+
+            }
+            </div>
+            <!-- end post -->
+        </div>
+        <!-- END content -->
+
+
+    </div>
+    <!-- END wrapper -->
+</body>

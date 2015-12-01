@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutView.cshtml";
+}
+@model KhuyenNong.Models.User_Table
+
+<div id="wrapper">
+    <style>
+        .box {
+            width: 200px;
+            height: 30px;
+            font-size: 20px;
+            margin: 10px 75px;
+        }
+
+        #lbl {
+            font-size: 15px;
+            margin-left: 100px;
+        }
+
+        .u-form-group {
+            margin-left: 85px;
+        }
+    </style>
+
+
+    <div id="content">
+        @using (Html.BeginForm("submit", "User", FormMethod.Post))
+        {
+            @Html.TextBoxFor(model => model.Email, null, new { @class = "box", @type = "text", @placeholder = "Username" })
+            @Html.ValidationMessageFor(model => model.Email)
+
+            <br />
+            @Html.TextBoxFor(model => model.password, null, new { @class = "box", @type = "password", @placeholder = "Password" })
+            @Html.ValidationMessageFor(model => model.password)
+
+            <br />
+            
+            <div class="u-form-group">
+                <button type="submit" style="width: 80px; height:40px">Log In</button>
+            </div>
+            <br />
+            <div class="u-form-group">
+                <a href="forgotpassword" class="forgot-password">Forgot password?</a>
+            </div>
+        }
+    </div>
+</div>

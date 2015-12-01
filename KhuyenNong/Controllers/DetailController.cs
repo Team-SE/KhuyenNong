@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using KhuyenNong.Models.HomePage;
+using KhuyenNong.Models;
 
 namespace KhuyenNong.Controllers
 {
@@ -14,7 +14,7 @@ namespace KhuyenNong.Controllers
 
         public ActionResult Index()
         {
-            using (Database1Entities1 db = new Database1Entities1())
+            using (DatabaeEntities db = new DatabaeEntities())
             {
                 var data = (from a in db.ShowHomes
                                 orderby a.dateWritten descending

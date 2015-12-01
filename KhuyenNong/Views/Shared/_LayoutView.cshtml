@@ -45,9 +45,9 @@
                 <ul class="nav navbar-nav">
                    <li><a href='~/Assets/User/index.html'><span>       </t></span></a></li>
                    <li><a href="/HomePage"><span></t>Trang chủ</span></a></li>
-                       <li><a href=''><span>Tin tức</span></a></li>
+                       <li><a href='/Detail/Index'><span>Tin tức</span></a></li>
                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kiến thức</a>
+                            <a href="/Kienthuc" class="dropdown-toggle" data-toggle="dropdown">Kiến thức</a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Hỏi Đáp</a></li>
                                 <li><a href="#">Khảo Sát</a></li>
@@ -55,15 +55,23 @@
                                 @*<%--<li><a href="#">Shortcodes</a></li>--%>*@
                             </ul>
                         </li>
-                        <li><a href='~/Assets/User/gallery.html'><span>Giá cả</span></a></li>                     
-                        <li><a href='/Login/Log_in'><span>Đăng nhập</span></a></li>
-                        <li><a href='/Login/Register'><span>Đăng ký</span></a></li>
+                        <li><a href='http://vietbao.vn/vn/gia-ca-thi-truong/nong-san/khu-vuc-tphcm/'><span>Giá cả</span></a></li>                     
+                        @if (Session["kk"] != null) { 
+                            <li><a href=''><span>Chào, @Session["kk"]</span></a></li>
+                            <li><a href="/User/logOut"><span>Đăng xuất</span></a></li>
+                        }
+                        else
+                        {
+                             <li><a href='/User/Index'><span>Đăng nhập</span></a></li>
+                            <li><a href='/Login/Register'><span>Đăng ký</span></a></li>
+                        }
+                 
                         
                         @*<div class="clear"></div>*@
                 </ul>
 
                 <div class="search_box">
-                    @using (Html.BeginForm("searchResult", "search"))
+                    @using (Html.BeginForm("searchPage", "search"))
                     {
                         <input type="text" name="keys" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
                         <input type="submit" value="">                    
@@ -77,6 +85,8 @@
     </nav>
 
     @RenderBody()
+    @*@RenderSection("partialIndex", required: false)*@
+
     <link rel="stylesheet" type="text/css" href="~/Assets/HomePage/style.css" />
     <!-- BEGIN wrapper -->
     <div id="wrapper">
@@ -101,12 +111,9 @@
         <!-- END wrapper -->
             <!-- BEGIN footer -->
             <div id="footer">
-                <p>Copyright &copy; 2015 - <a href="#">Trung tâm khuyến nông</a> &middot; All Rights Reserved</p>
+                <p>Copyright &copy; 2015 - <a href="https://www.facebook.com/groups/1681433222090943/">Trung tâm khuyến nông</a> &middot; All Rights Reserved</p>
 
             </div>
             <!-- END footer -->
 </body>
 </html>
-
-
-

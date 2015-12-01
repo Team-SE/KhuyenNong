@@ -7,18 +7,19 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace KhuyenNong.Models
+namespace KhuyenNong.Models.Data
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class BUSSINESS_BUY
+    public partial class ShowHome
     {
         public int Id { get; set; }
-        public string Name_Buss { get; set; }
-        public string Name_seed { get; set; }
-        public string Price_buy { get; set; }
-        public Nullable<System.DateTime> UpdateDay { get; set; }
-        public string Author { get; set; }
+        public string linkImage { get; set; }
+        public string Title { get; set; }
+        public string Summary { get; set; }
+        public Nullable<System.DateTime> dateWritten { get; set; }
+        public string linkPage { get; set; }
+        public int Type { get; set; }
     }
 }

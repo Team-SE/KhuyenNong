@@ -7,16 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace KhuyenNong.Models.HomePage
+namespace KhuyenNong.Models
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class Database1Entities1 : DbContext
+    public partial class DatabaeEntities : DbContext
     {
-        public Database1Entities1()
-            : base("name=Database1Entities1")
+        public DatabaeEntities()
+            : base("name=DatabaeEntities")
         {
         }
     
@@ -26,5 +26,6 @@ namespace KhuyenNong.Models.HomePage
         }
     
         public virtual DbSet<ShowHome> ShowHomes { get; set; }
+        public virtual DbSet<User_Table> User_Table { get; set; }
     }
 }

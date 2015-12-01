@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Login_in";
+    Layout = "~/Views/Shared/_LayoutView.cshtml";
+}
+@model KhuyenNong.Models.User_Table
+<h2>Login_in</h2>
+
+@using (Html.BeginForm())
+{
+
+    @Html.AntiForgeryToken()
+
+    <div class="u-form-group">
+        @Html.TextBoxFor(model => model.Email, null, new { @class = "box", @type = "text", @placeholder = "Username" })
+        @Html.ValidationMessageFor(model => model.Email)
+    </div>
+
+
+    <div class="u-form-group">
+        @Html.TextBoxFor(model => model.password, null, new { @class = "box", @type = "password", @placeholder = "Password" })
+        @Html.ValidationMessageFor(model => model.password)
+    </div>
+    <div>
+        <input type="text" name="chuoi" />
+        <input type="submit" />
+    </div>
+}
+
+

@@ -1,47 +1,6 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Đăng nhập</title>
-
-    <link rel="stylesheet" href="~/Assets/Login/css/style.css">
-
-
-
-
-</head>
-
-<body>
-
-    <div class="container">
-
-        <div id="login-form">
-
-            <h3>Đăng nhập</h3>
-
-            <fieldset>
-
-                <form action="javascript:void(0);" method="get">
-
-                    <input type="email" required value="Tên tài khoản"  onfocus="    if (this.value == 'Tên tài khoản') this.value = '' "> <!-- JS because of IE support; better: placeholder="Email" -->
-
-                    <input type="password" required value="Password"  onfocus="if(this.value=='Password')this.value='' "> <!-- JS because of IE support; better: placeholder="Password" -->
-
-                    <input type="submit" value="Đăng nhập">
-
-                    <footer class="clearfix">
-
-                        <p><span class="info">?</span><a href="#">Quên mật khẩu?</a></p>
-
-                    </footer>
-
-                </form>
-
-            </fieldset>
-
-        </div> <!-- end login-form -->
-
-    </div>
-
-</body>
-</html>
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_LayoutView.cshtml";
+}
+@model KhuyenNong.Models.HomePage.
+<h2>Login</h2>

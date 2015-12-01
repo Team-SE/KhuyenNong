@@ -12,35 +12,40 @@ namespace KhuyenNong.Controllers
     {
         //
         // GET: /search/
-        
-        public ActionResult Index()
-        {
-            return View();
-        }
-        public ActionResult searchResult(string keys)
-        {
-            
-           // String l = "~/database/knowledge/1.txt";
-            if (keys == null || keys.Trim() == "") return RedirectToAction("Index", "HomePage");
-            using (Database1Entities db = new Database1Entities())
-            {
-               // var tble = db.KNOWLEDGES.Where(a => System.IO.File.ReadAllText(a.Contains).Contains(keys));
-                keys = keys.Trim().ToLower();
-                var tbleKnowLedge = (from a in db.KNOWLEDGES
-                                     join b in db.User_Table on a.Author equals b.Email
-                                     select new rowSearch { Author = b.username, Title = a.Title, Contains = a.Contains, DateWritten = "", Id = a.Id.ToString()}).ToList();
-                var mapping = tbleKnowLedge.Select(a => new rowSearch { Author = a.Author, Title = a.Title, Contains = System.IO.File.ReadAllText(Server.MapPath(a.Contains)), DateWritten = "", Id = a.Id.ToString() }).ToList();
-                var listRes = mapping.Where(x => x.Contains.ToLower().Contains(keys)).ToList();
-
-                //var s = System.IO.Directory.GetCurrentDirectory();
-                return View(new searchResult(listRes, keys));
-            }
-        }
+       
         public ActionResult searchPage(string keys)
         {
             if (keys == null || keys.Trim() == "") return RedirectToAction("Index", "HomePage");
-
-            return View();
+            using (DatabaeEntities db = new DatabaeEntities())
+            {
+                keys = keys.Trim().ToLower();
+                var data = (from a in db.ShowHomes
+                            select new thumbHome
+                            {
+                                linkTitle = a.Title,
+                                type = a.Type,
+                                linkPage = a.linkPage,
+                                summary = a.Summary
+                            }).ToList();
+                List<thumbHome> result = new List<thumbHome>(data.Count);
+                foreach (var i in data)
+                {
+                    var line = System.IO.File.ReadAllLines(Server.MapPath("~\\Views" + i.linkPage + ".cshtml"));
+                    int length = line.Length;
+                    for (int j = 0; j < length; j++ )
+                    {
+                        if (line[j].ToLower().Contains(keys))
+                        {
+                            result.Add(i);
+                            break;
+                        }
+                    }
+                    //if (line)
+                }
+                return View(new resSearch(result, keys));
+            }
+           
         }
+
     }
 }
